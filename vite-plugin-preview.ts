@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import type { Plugin, PreviewServer, ViteDevServer } from 'vite'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import { createRequire } from 'node:module'
